@@ -2,10 +2,16 @@
 
 namespace MethodsExercise
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
+            //-------------MethodsExercise 1------------------------
+                //Name: Cassy
+                //Favorite color: Green
+                //Favorite Animal: Dog
+                //Favorite Band: the Used
+
             Console.WriteLine("What is your name?");
             string userName = Console.ReadLine();
 
@@ -23,19 +29,23 @@ namespace MethodsExercise
             Console.WriteLine($"Her favorite animal is her {userAnimalName} that she loves more than anything in the universe.");
             Console.WriteLine($"The only thing she loves almost as much as her dog is her favorite band {userBandName}.");
 
+        }
+            
+    }        
 
             
-            
-
-            
-            
+}            
 
            
                        
 
-    }
+    
+
             
 
         
     
-}
+
+
+
+
